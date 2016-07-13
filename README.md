@@ -18,8 +18,10 @@ For crashlytics on android, there is a hidden configuration, you need to add/upd
 
 <code>&lt;string name="com.crashlytics.android.build_id">e9e6beb9c4284289ac68b9ab76a9ee56&lt;/string></code>
 
-Or else you'll get a crash on startup.
+Or else you'll get a crash on startup ("Unable to extract Crashlytics build info from the dropped APK. Please make sure your Crashlytics build tool plugin is installed and enabled")
 
 There is a Sample available on Samples folder.
 
 On iOS, Crashlytics shouldn't be used with Answers. Crashlytics includes Answers, so you should use either.
+
+[Dropping .apk in Android Studio plugin for Beta] (https://github.com/drungrin/Fabric.Sdk.Xamarin/issues/7)
